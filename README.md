@@ -1,12 +1,12 @@
 # SpecGenNG
 
-**Yet another version of SpecGen**
+**Yet Another Version of SpecGen**
 
-This is [zazi0815](https://smiy.wordpress.com/2010/07/13/my-specgen-version-6/)'s version 6, ported to Python 3 (from 2.6).
+This is [zazi0815](https://smiy.wordpress.com/2010/07/13/my-specgen-version-6/)'s Version 6, ported to Python 3 from 2.6
 
-Notes under About v6 are lifted from https://github.com/specgen/specgen, will mostly apply here too.
+Notes under [About v6](https://github.com/danja/specgen-ng#about-v6) are lifted from https://github.com/specgen/specgen, will mostly apply here too.
 
-I'll update instructions here once I've actually used it and someone else has kicked its tyres (and time permits). The command line below is fairly self-explanatory.
+I'll update instructions here once I've actually used it properly and someone else has kicked its tyres (and time permits). The command line below is fairly self-explanatory.
 
 Key bits are:
 
@@ -16,12 +16,19 @@ Key bits are:
 - run something like :
 
 ```
-python src/specgenng.py --indir=onto/project/ --ns=http://purl.org/stuff/project/ --prefix=prj --ontofile=project_2007-09-03.rdf --templatedir=template --outdir=spec/project/ --outfile=project_2007-09-03.html
+python src/specgenng.py \
+      --indir=onto/project/ \
+      --ns=http://purl.org/stuff/project/ \
+      --prefix=prj \
+      --ontofile=project_2007-09-03.rdf \
+      --templatedir=template \
+      --outdir=spec/project/ \
+      --outfile=project_2007-09-03.html
 ```
 
 A template file is required, there's a blank one under `template`.
 
-_I wanted to update a vocab+docs and after spending some serious time hunting for a recent version of specgen or equivalent, gave up, bit the bullet, updated this v6. The heavy lifting was done by Python 2to3. There was no obvious license so I've slapped an MIT on it just in case, but to all intents and purposes it's public domain._
+_I wanted to update a vocab+docs and after spending some serious time hunting for a recent version of specgen or equivalent, gave up, bit the bullet, updated this v6. The heavy lifting was done by Python 2to3. I've named it SpecGenNG (v1.0.0 I guess) because it's a breaking change and there's probably a v7 already out there... There was no obvious license so I've slapped an MIT on it just in case, but to all intents and purposes it's public domain._
 
 ## About v6
 
