@@ -1,6 +1,8 @@
 # SpecGenNG
 
-**Yet Another Version of SpecGen**
+**Yet Another Version of SpecGen!**
+
+Documentation generator for RDF/OWL vocabularies/ontologies : RDF + template in, HTML out.
 
 This is [zazi0815](https://smiy.wordpress.com/2010/07/13/my-specgen-version-6/)'s Version 6, ported to **Python 3** (from 2.6).
 
