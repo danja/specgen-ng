@@ -38,7 +38,7 @@ _I wanted to update a vocab+docs and after spending some serious time hunting fo
 
 ---
 
-## About v6
+## About v6 (2010-ish)
 
 This is an experimental new codebase for [specgen](http://forge.morfeo-project.org/wiki_en/index.php/SpecGen) tools based on danbri's [specgen5 version](http://svn.foaf-project.org/foaftown/specgen/),
 which was heavily updated by [Bo Ferri](http://github.com/zazi/) in summer 2010.
