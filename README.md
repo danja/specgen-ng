@@ -4,13 +4,22 @@
 
 This is [zazi0815](https://smiy.wordpress.com/2010/07/13/my-specgen-version-6/)'s version 6, ported to Python 3 (from 2.6).
 
-Notes under About v6 are lifted from https://github.com/specgen/specgen
+Notes under About v6 are lifted from https://github.com/specgen/specgen, will mostly apply here too.
 
-I'll update this here once someone else has tried it when time permits.
+I'll update instructions here once I've actually used it and someone else has kicked its tyres (and time permits). The command line below is fairly self-explanatory.
 
-### Key bits are:
+Key bits are:
 
-- Clone this repo
+- clone this repo
+- put your vocab somewhere convenient (like the `onto` dir)
+- `cd specgenng`
+- run something like :
+
+```
+python src/specgenng.py --indir=onto/project/ --ns=http://purl.org/stuff/project/ --prefix=prj --ontofile=project_2007-09-03.rdf --templatedir=template --outdir=spec/project/ --outfile=project_2007-09-03.html
+```
+
+A template file is required, there's a blank one under `template`.
 
 _I wanted to update a vocab+docs and after spending some serious time hunting for a recent version of specgen or equivalent, gave up, bit the bullet, updated this v6. The heavy lifting was done by Python 2to3. There was no obvious license so I've slapped an MIT on it just in case, but to all intents and purposes it's public domain._
 
