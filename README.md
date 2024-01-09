@@ -30,6 +30,10 @@ A template file is required, there's a blank one under `template`.
 
 _I wanted to update a vocab+docs and after spending some serious time hunting for a recent version of specgen or equivalent, gave up, bit the bullet, updated this v6. The heavy lifting was done by Python 2to3. I've named it SpecGenNG (v1.0.0 I guess) because it's a breaking change and there's probably a v7 already out there... There was no obvious license so I've slapped an MIT on it just in case, but to all intents and purposes it's public domain._
 
+---
+
+---
+
 ## About v6
 
 This is an experimental new codebase for [specgen](http://forge.morfeo-project.org/wiki_en/index.php/SpecGen) tools based on danbri's [specgen5 version](http://svn.foaf-project.org/foaftown/specgen/),
