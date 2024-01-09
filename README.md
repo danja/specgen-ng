@@ -2,7 +2,7 @@
 
 **Yet Another Version of SpecGen**
 
-This is [zazi0815](https://smiy.wordpress.com/2010/07/13/my-specgen-version-6/)'s Version 6, ported to Python 3 (from 2.6).
+This is [zazi0815](https://smiy.wordpress.com/2010/07/13/my-specgen-version-6/)'s Version 6, ported to **Python 3** (from 2.6).
 
 Notes under [About v6](https://github.com/danja/specgen-ng#about-v6) are lifted from https://github.com/specgen/specgen, will mostly apply here too.
 
