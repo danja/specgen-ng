@@ -34,6 +34,8 @@ _I wanted to update a vocab+docs and after spending some serious time hunting fo
 
 ---
 
+![Zombie foafsters](https://github.com/danja/specgen-ng/blob/main/template/zombie-foafsters.jpg)
+
 ---
 
 ## About v6
